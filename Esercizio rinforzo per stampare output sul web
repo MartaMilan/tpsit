@@ -65,72 +65,35 @@ button {
     <div id ="box20" class="red"><p>20</p></div>
 
     <button class="buttonBlue" type="button" onclick="return CambiaTXT()">Click Me!</button>
+    <button class="buttonBlue" type="button" onclick="return Tabelline()">Click Me!</button>
 
 <script>
   function CambiaTXT(){
    document.getElementById("box1").innerHTML="ciao";
-
-
-  }
-  function CambiaTXT(){
    document.getElementById("box2").innerHTML="ciao";
-
-}
-function CambiaTXT(){
    document.getElementById("box3").innerHTML="ciao";
+  }
 
-}function CambiaTXT(){
+   function Tabelline(){
    document.getElementById("box4").innerHTML="5";
-
-}function CambiaTXT(){
    document.getElementById("box5").innerHTML="10";
-
-}function CambiaTXT(){
    document.getElementById("box6").innerHTML="15";
-
-}function CambiaTXT(){
    document.getElementById("box7").innerHTML="20";
-
-}function CambiaTXT(){
    document.getElementById("box8").innerHTML="25";
-
-}function CambiaTXT(){
    document.getElementById("box9").innerHTML="30";
-
-}function CambiaTXT(){
    document.getElementById("box10").innerHTML="35";
-
-}function CambiaTXT(){
    document.getElementById("box11").innerHTML="40";
-
-}function CambiaTXT(){
    document.getElementById("box12").innerHTML="45";
-
-}function CambiaTXT(){
    document.getElementById("box13").innerHTML="50";
-
-}function CambiaTXT(){
    document.getElementById("box14").innerHTML="55";
-
-}function CambiaTXT(){
    document.getElementById("box15").innerHTML="60";
-
-}function CambiaTXT(){
    document.getElementById("box16").innerHTML="65";
-
-}function CambiaTXT(){
    document.getElementById("box17").innerHTML="70";
-
-}function CambiaTXT(){
    document.getElementById("box18").innerHTML="75";
-
-}function CambiaTXT(){
    document.getElementById("box19").innerHTML="80";
-
-}function CambiaTXT(){
    document.getElementById("box20").innerHTML="85";
+   }
 
-}
 </script>
 
 
