@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <a href="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"&gt; ></a>
+ 
+    <style>
+div{
+ margin:2px;
+ padding:2px;
+ width: 200px;
+ height: 200px;
+position:relative;
+display: flex;
+float: left;
+}
+.rosso{
+    background-color: crimson;
+}
+.giallo{
+    background-color: rgb(227, 252, 8);
+}
+.blue{
+    background-color: darkblue;
+}
+.verde{
+    background-color:darkgreen;
+}
+</style>
+
+</head>
+<body>
+
+<div id=".rosso" class="rosso">
+
+    <button  onclick="cambiacolore()" class="w3-button w3-black w3-round-large">Change color</button>
+
+</div>
+<div id=".giallo" class="giallo">
+    <button onclick="cambiacolore()" class="w3-button w3-black w3-round-large">Change color</button>
+</div>
+<div id=".blue" class="blue">
+    <button onclick="cambiacolore()" class="w3-button w3-black w3-round-large">Change color</button>
+</div>
+<div id=".verde" class="verde">
+    <button onclick="cambiacolore()" class="w3-button w3-black w3-round-large">Change color</button>
+</div>
+
+
+<script>
+    function cambiacolore() {
+  document.getElementById(".rosso").style.background-Color = "#54FFCE";
+}
+function cambiacolore() {
+  document.getElementById(".giallo").style.background-Color = "#F493B7";
+}
+function cambiacolore() {
+  document.getElementById(".blue").style.background-Color = "#8E6BE1";
+}
+function cambiacolore() {
+  document.getElementById(".verde").style.background-Color = "#BB66AA";
+}
+
+
+
+</script>    
+
+   
+
+</body>
+</html>
